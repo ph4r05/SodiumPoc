@@ -1,5 +1,13 @@
-# Project works with use_frameworks!
+# Project works only with use_frameworks!
+
+# Works
 #use_frameworks!
+
+# Works
+use_frameworks! :linkage => :static
+
+# Does not work
+#use_modular_headers!
 
 platform :ios, '13.0'
 

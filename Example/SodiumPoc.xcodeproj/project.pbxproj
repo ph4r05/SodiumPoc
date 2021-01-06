@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		387A2D7555E92FFCE15C5CF2 /* libPods-SodiumPoc_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05097CD52E44BA55FEE74C24 /* libPods-SodiumPoc_Tests.a */; };
-		53E88C5ADC5307D7B4268DC1 /* libPods-SodiumPoc_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7BEA0EB87D891B45534CF9 /* libPods-SodiumPoc_Example.a */; };
+		22204D063AEA15914688F588 /* Pods_SodiumPoc_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42DD5079E9C6D6A3F55EEC2 /* Pods_SodiumPoc_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		E60BD85949F48AFC6B765F7B /* Pods_SodiumPoc_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ABDAE752A57102C4C62E8D /* Pods_SodiumPoc_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05097CD52E44BA55FEE74C24 /* libPods-SodiumPoc_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SodiumPoc_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE3488825A5E10600B3B836 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		1C2C3549E30FA193FFFDD2CB /* Pods-SodiumPoc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumPoc_Example.debug.xcconfig"; path = "Target Support Files/Pods-SodiumPoc_Example/Pods-SodiumPoc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3A067B183A0CD4EB5A00399A /* Pods-SodiumPoc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumPoc_Example.release.xcconfig"; path = "Target Support Files/Pods-SodiumPoc_Example/Pods-SodiumPoc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SodiumPoc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodiumPoc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,8 @@
 		6BA5C88D5F9B4F2E7087549A /* SodiumPoc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SodiumPoc.podspec; path = ../SodiumPoc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		720DCE692387BDB34D353E60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB176EC8F3B75B815EF0CA8C /* Pods-SodiumPoc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SodiumPoc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SodiumPoc_Tests/Pods-SodiumPoc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB7BEA0EB87D891B45534CF9 /* libPods-SodiumPoc_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SodiumPoc_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0ABDAE752A57102C4C62E8D /* Pods_SodiumPoc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SodiumPoc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42DD5079E9C6D6A3F55EEC2 /* Pods_SodiumPoc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SodiumPoc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A017E93C3E885E66F77883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53E88C5ADC5307D7B4268DC1 /* libPods-SodiumPoc_Example.a in Frameworks */,
+				E60BD85949F48AFC6B765F7B /* Pods_SodiumPoc_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387A2D7555E92FFCE15C5CF2 /* libPods-SodiumPoc_Tests.a in Frameworks */,
+				22204D063AEA15914688F588 /* Pods_SodiumPoc_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +73,8 @@
 		4FD285B308421161BDC5906B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB7BEA0EB87D891B45534CF9 /* libPods-SodiumPoc_Example.a */,
-				05097CD52E44BA55FEE74C24 /* libPods-SodiumPoc_Tests.a */,
+				B0ABDAE752A57102C4C62E8D /* Pods_SodiumPoc_Example.framework */,
+				C42DD5079E9C6D6A3F55EEC2 /* Pods_SodiumPoc_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +117,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AE3488825A5E10600B3B836 /* Podfile */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -170,6 +172,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				22A052937786D8F054A4152B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +191,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				34720B88367E6878DF4DC865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,6 +286,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A052937786D8F054A4152B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SodiumPoc_Example/Pods-SodiumPoc_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Sodium/Sodium.framework",
+				"${BUILT_PRODUCTS_DIR}/SodiumPoc/SodiumPoc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sodium.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SodiumPoc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SodiumPoc_Example/Pods-SodiumPoc_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34720B88367E6878DF4DC865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SodiumPoc_Tests/Pods-SodiumPoc_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SodiumPoc_Tests/Pods-SodiumPoc_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AAF9EC3517465A512E9BDFD5 /* [CP] Check Pods Manifest.lock */ = {

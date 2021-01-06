@@ -32,6 +32,10 @@ Undefined symbols for architecture arm64:
     Sodium.Utils.bin2base64(_: [Swift.UInt8], variant: Sodium.Utils.Base64Variant) -> Swift.String? in 
 ```
 
+- `use_frameworks! :linkage => :static` works
+- `use_frameworks! :linkage => :dynamic` works
+- `use_modular_headers!` alone does not work
+
 ## Lint test
 
 The following Lint passes:
