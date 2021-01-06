@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Sodium
+import SodiumPoc
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

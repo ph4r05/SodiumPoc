@@ -1,0 +1,31 @@
+PODS:
+  - Nimble (8.0.9)
+  - Quick (2.2.1)
+  - Sodium (0.9.1)
+  - SodiumPoc (0.1.0):
+    - Sodium (~> 0.9.1)
+
+DEPENDENCIES:
+  - Nimble (~> 8.0.7)
+  - Quick (~> 2.2.0)
+  - SodiumPoc (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+    - Sodium
+
+EXTERNAL SOURCES:
+  SodiumPoc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  Sodium: 23d11554ecd556196d313cf6130d406dfe7ac6da
+  SodiumPoc: b7d6abe5baf14824d027aa3e2a3382850be7dabe
+
+PODFILE CHECKSUM: 929b12c07eeba622d102d297784bfee1b3ab44a1
+
+COCOAPODS: 1.10.0
